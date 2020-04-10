@@ -1,0 +1,25 @@
+{
+  "name": "spp_sfmc_de_extract_push_list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "azure": "^2.3.1-preview",
+    "azure-storage": "^2.10.3",
+    "csv-parse": "^4.8.8",
+    "csv-stringify": "^5.3.6",
+    "dotenv": "^8.2.0",
+    "line-by-line": "^0.1.6",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test2": "node -v"
+  },
+  "author": "",
+  "license": "ISC"
+}
