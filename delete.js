@@ -24,7 +24,7 @@ function deleteRegistration(registrationId, { etag }) {
       if (error) {
         resolve(error.message);
       } else {
-        resolve('status: ', response.isSuccessful, 'statusCode: ', reponse.statusCode);
+        resolve('status: ', response.isSuccessful, 'statusCode: ', response.statusCode);
       }
     });
   })
